@@ -1,0 +1,5 @@
+package com.ksv.controllers;
+
+public class StudentRegistrationController {
+
+}

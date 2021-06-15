@@ -1,0 +1,20 @@
+package com.ksv.controllers;
+
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+@Controller
+public class HelloWorldController1 {
+
+	@RequestMapping("/welcome")
+	protected ModelAndView handleRequestInternal() throws Exception {
+		
+		ModelAndView modelAndView = new ModelAndView("HelloPage");
+		modelAndView.addObject("message", "Explore Your Skills here (This Request is mapped by annotation)");
+		return modelAndView;
+		
+	}
+
+}

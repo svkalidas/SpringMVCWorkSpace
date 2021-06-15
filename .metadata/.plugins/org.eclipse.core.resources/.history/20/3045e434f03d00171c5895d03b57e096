@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>CHRIST</title>
+</head>
+<body>
+<form action="FirstSpringMVCProject/studentDetails" method="get">
+	<div><h1>${message1}</h1></div>
+	<div>
+	Name : <input type="text" name="name">
+	</div>
+	<div>
+	Qualification : <input type="text" name="qualification">
+	</div>
+	<div>
+	E-mail : <input type="text" name="email">
+	</div>
+	
+	<div>
+		<input type="submit" value="Submit Details"/>
+	</div>
+
+</form>
+</body>
+</html>
